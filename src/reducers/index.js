@@ -1,4 +1,8 @@
-import { DELETE_ALL_EVENTS, CREATE_EVENT, DELETE_EVENT } from "./actions";
+import {
+  DELETE_ALL_EVENTS,
+  CREATE_EVENT,
+  DELETE_EVENT,
+} from "../components/actions";
 
 const events = (state = [], action) => {
   switch (action.type) {
