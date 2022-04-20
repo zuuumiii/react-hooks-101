@@ -6,7 +6,7 @@ import Events from "./Events";
 import EventForm from "./EventForm";
 
 const App = () => {
-  const initialState = { events: [] };
+  const initialState = { events: [], operationLogs: [] };
   const [state, dispatch] = useReducer(reducer, initialState);
   return (
     <AppContext.Provider value={{ state, dispatch }}>
